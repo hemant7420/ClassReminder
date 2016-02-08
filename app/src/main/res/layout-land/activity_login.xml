@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+
+        android:layout_width="4245dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1.10"
+        android:maxHeight="150dp"
+        android:maxWidth="150dp"
+        android:minHeight="150dp"
+        android:minWidth="150dp"
+        android:src="@mipmap/logo" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@mipmap/ic_person"
+        android:focusable="true"
+        android:hint="Enter username"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/username"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableLeft="@drawable/ic_lock_outline_24dp"
+        android:hint="@string/password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignStart="@+id/password"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/green"
+        android:text="@string/login"
+        android:textColor="@color/white"
+
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/username"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Welcome to Class Reminder"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
+    <!-- # CSIT 6000B    #  HEMANT SINGHI        20294499          hssinghi@connect.ust.hk -->

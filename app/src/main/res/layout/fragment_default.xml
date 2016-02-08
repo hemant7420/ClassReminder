@@ -1,0 +1,9 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlde"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="website.frosil.hemant.classreminder.DefaultFragment">
+
+</RelativeLayout>
+    <!-- # CSIT 6000B    #  HEMANT SINGHI        20294499          hssinghi@connect.ust.hk -->

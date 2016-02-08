@@ -1,0 +1,183 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="1"
+        tools:context=".MainActivity">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.30"
+            android:minHeight="140dp"
+            android:src="@mipmap/logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:text="Class Reminder"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/studentid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@mipmap/ic_studentid"
+            android:drawablePadding="5dip"
+            android:ems="100"
+            android:focusable="true"
+            android:hint="Enter Student ID"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textColor="#000000" />
+
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@mipmap/ic_student"
+            android:drawablePadding="5dip"
+            android:ems="100"
+            android:focusable="true"
+            android:hint="Enter name"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/studentemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@mipmap/ic_email"
+            android:drawablePadding="5dip"
+            android:ems="100"
+            android:focusable="true"
+            android:hint="Enter email"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@mipmap/ic_lock"
+            android:drawablePadding="5dip"
+            android:ems="100"
+            android:hint="@string/password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="100"></Spinner>
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="100"></Spinner>
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="100"></Spinner>
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="100"></Spinner>
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"></Spinner>
+
+        <Spinner
+            android:id="@+id/spinner6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:ems="100"></Spinner>
+
+        <Button
+            android:id="@+id/sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="30dp"
+            android:background="#2e62ca"
+            android:onClick="insert"
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/abc_text_size_medium_material" />
+
+    </LinearLayout>
+
+</ScrollView>
+    <!-- # CSIT 6000B    #  HEMANT SINGHI        20294499          hssinghi@connect.ust.hk -->

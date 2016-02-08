@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/msg1_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listViewSlider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/nav_header_container" />
+
+</RelativeLayout>
+    <!-- # CSIT 6000B    #  HEMANT SINGHI        20294499          hssinghi@connect.ust.hk -->

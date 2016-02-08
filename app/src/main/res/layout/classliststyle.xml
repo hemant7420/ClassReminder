@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt_course_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_course_id"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingBottom="2dip"
+        android:textColor="@android:color/holo_blue_light" />
+
+    <TextView
+        android:id="@+id/txt_course_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_course_id"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/txt_course_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_course_name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/txt_course_room"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_course_desc"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/txt_course_prof"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_course_room"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/txt_course_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_course_prof"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingBottom="2dip" />
+
+    <TextView
+        android:id="@+id/txt_course_day"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_course_time"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+</RelativeLayout>
+    <!-- # CSIT 6000B    #  HEMANT SINGHI        20294499          hssinghi@connect.ust.hk -->
