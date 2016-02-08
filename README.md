@@ -25,18 +25,18 @@ Design and Implementation
 
 Requirement Analysis – (User Requirements)
 1. Registration
-	•User will be able to sign up for the application
-	•User will need to provide his/her name, Student ID no., email
+	-User will be able to sign up for the application
+	-User will need to provide his/her name, Student ID no., email
 	 address, password and courses he have enrolled.
 
 2. Login
-	•User will be able to login using email or Student ID no.
+	-User will be able to login using email or Student ID no.
 
 3. Classes
-	•User must be able to see the class information he has been
+	-User must be able to see the class information he has been
 	 enrolled. Information includes the class description, time, days
 	 and the professor name.
 
 4. Reminder
-	•Reminder for the class must be set to remind the user about
+	-Reminder for the class must be set to remind the user about
 	 their class as before 1 hour.
